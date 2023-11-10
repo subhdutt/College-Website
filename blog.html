@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUFORD - University website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs</h1>   
+
+    </section>
+
+    <!-- --------blog ppage content--------  -->
+
+    <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Program</h2>
+                <p>Embark on a journey of skill enhancement with our diverse
+                certificate programs at EDUFORD. Our online 
+                offerings provide flexibility without compromising on quality, 
+                ensuring a dynamic virtual learning experience. Delve into specialized 
+                topics led by industry experts, equipping you with practical skills for today's workforce. 
+                At EDUFORD university, we redefine education by combining accessibility and excellence. 
+                Elevate your career prospects with our certificate and online programs, where learning knows no boundaries.
+                </p>
+                <br>
+                <p>
+                    Whether you're looking to enhance your expertise in a specific field or seeking a flexible learning path,
+                    our certificate programs offer a focused curriculum curated by industry experts. Dive into topics such as Academics , extra-curricular ,personality development and quality of life,
+                     guided by faculty with real-world experience.
+                </p>
+                <br>
+                <p>
+                    For those with busy schedules or a desire for remote learning, our online programs provide a seamless virtual classroom experience. Engage with interactive content, collaborate with peers, and receive personalized guidance from our dedicated instructors. These programs are crafted to accommodate your lifestyle while ensuring a high-quality educational experience.
+                </p>
+                <br>
+                <p>
+                    At EDUFORD, we prioritize accessibility without compromising on quality. Our certificate and online programs not only equip you with practical skills but also provide a valuable credential recognized in today's competitive job market.
+                </p>
+                <br>
+                <p>
+                    Take the next step in your professional journey with Eduford's certificate and online programs — where convenience meets excellence, and education transforms into empowerment. Explore our offerings and embark on a path of continuous learning tailored to your goals and aspirations.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- ----Facilities---- -->
+
+       
+
+
+   
+   
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Eduford: A hub of academic excellence and innovation. 
+    Join us to unlock your potential and embark on a journey of knowledge and personal growth.   
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+    </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Subhadeep Dutta </p>
+</section>
+
+
+
+
+
+<!-- -----JavaScript for Toggle Menu--- -->
+    <script>
+        var navLinks= document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+
+</html>
